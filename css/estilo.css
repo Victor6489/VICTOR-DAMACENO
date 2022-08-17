@@ -60,6 +60,7 @@ nav.navbar-transparente {
 }
 .text-capa{
 	color: white;
+	font-size: 1.7em;
 }
 
 .btn-custom {
@@ -104,12 +105,23 @@ nav.navbar-transparente {
 #projetos h2 {
 	font-size: 60px;
 }
-
-#projetos h2, h3 {
+#projetos h2{
+	color: #454645;
+}
+#projetos h3 {
 	color: #069201;
 }
 #projetos p {
 	color: black;
+	font-size: 1.5em;
+}
+#projetos a {
+	color: black;
+	font-size: 0.5;
+
+}
+#projetos a:hover{
+	color: #069201;
 }
 
 #recursos h2 {
@@ -251,4 +263,6 @@ h3{
 	h1 {
 		font-size: 6em;
 	}
+}
+
 }
