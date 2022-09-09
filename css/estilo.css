@@ -226,7 +226,26 @@ footer ul li {
 	height: 10px;
 }
 
+/* Page Certificate
+-----------------------------*/
+#certificate{
+	margin-top: 130px;
+}
+.certificate-img{
+	width: 700px;
+	height: 450px;
+	border-radius: 100px;
+	
+}
+#certificate h2 {
+	font-size: 40px;
+	color: #069201;
+}
 
+#certificate p {
+	color: black;
+	font-size: 1.3em;
+}
 
 /* Tipografia
 -----------------------------*/
