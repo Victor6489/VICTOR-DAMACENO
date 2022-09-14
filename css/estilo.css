@@ -140,29 +140,29 @@ ul li:hover{
 ul li:hover::after{
   opacity:1;
 }*/
-.caixa {
+.box {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#projetos {
+#projects {
 	background: #302900;
 }
-#projetos h2 {
+#projects h2 {
 	font-size: 4em;
 	color: #069201;
 }
-#projetos p {
+#projects p {
 	color: black;
 	font-size: 1.5em;
 }
-#projetos a {
+#projects a {
 	color: black;
 	font-size: 1em;
 }
-#projetos a:hover{
+#projects a:hover{
 	color: #92a392;
 }
-#projetos img{
+#projects img{
 	width: 100%;
 	height: 100%;
 	max-width: 350px;
@@ -171,7 +171,7 @@ ul li:hover::after{
 	border-radius: 60px;
 	border: solid 10px #2a2b2a;	
 }
-#projetos img:hover{
+#projects img:hover{
 	border: outset 10px #92a392;
 }
 
