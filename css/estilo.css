@@ -5,7 +5,6 @@ html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
 }
-
 body {
 	background:	url(../img2/dev5.png) no-repeat center padding-box;
 	background-color:#2a2b2a;
@@ -23,12 +22,6 @@ nav.navbar-transparente {
 	src: url("../font/KGDefyingGravity.woff");
 }
 .name-title{
-	font-size: 2.5em;
-	padding-right: 2px;
-	padding-top: 11px;
-}
-
-.name-title{
 	font-size: 3em;
 	padding-right: 2px;
 	padding-top: 5px;
@@ -36,7 +29,6 @@ nav.navbar-transparente {
 	color: #302900;
 	margin-bottom: 1px;
 }
-
 .navbar-light .navbar-nav .nav-link {
 	color: #302900;
 	font-size: 18px;
@@ -45,13 +37,11 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #92a392;
 }
-
 .divisor {
 	width: 1.5px;
 	background: #302900;
 	margin: 10px 10px;
 }
-
 .description {
     display: none;
     color: #069201;
@@ -71,7 +61,6 @@ i:hover ~ .description {
 	padding-right: 5px;
 }
 
-
 /* Capa
 -----------------------------*/
 .capa {
@@ -81,7 +70,6 @@ i:hover ~ .description {
 	color: white;
 	font-size: 1.7em;
 }
-
 .btn-custom {
 	color: white;
 	border-radius: 500px;
@@ -91,20 +79,16 @@ i:hover ~ .description {
     transition: background 0.04s, color 0.4s;
     padding: 10px 20px;
 }
-
 .btn-branco {
 	border: 2px solid white;
 }
-
 .btn-branco:hover {
 	background-color: white;
 	color: black;
 }
-
 .carousel-control-next, .carousel-control-prev {
 	width: 1%;
 }
-
 
 /* Estrutura conteúdos
 -----------------------------*/
@@ -229,8 +213,6 @@ footer ul li {
 	float: right;
 	margin: 0 5px;
 }
-
-
 .img-contatos{
 	width: 10px;
 	height: 10px;
@@ -250,11 +232,11 @@ footer ul li {
 	font-size: 3.5em;
 	color: #069201;
 }
-
 #certificate p {
 	color: black;
 	font-size: 1.5em;
 }
+
 /* Page Historic
 -----------------------------*/
 #historic{
@@ -343,16 +325,14 @@ h3{
 	}
 	/* Page Certificate
 ------------------------------------------------------*/
-#certificate h2 {
-	font-size: 2em;
-	color: #069201;
-}
-
-#certificate p {
-	color: black;
-	font-size: 1em;
-}
-	
+	#certificate h2 {
+		font-size: 2em;
+		color: #069201;
+	}
+	#certificate p {
+		color: black;
+		font-size: 1em;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -401,15 +381,14 @@ h3{
 	}
 	/* Page Certificate
 ------------------------------------------------------*/
-#certificate h2 {
-	font-size: 2em;
-	color: #069201;
-}
-
-#certificate p {
-	color: black;
-	font-size: 1em;
-}
+	#certificate h2 {
+		font-size: 2em;
+		color: #069201;
+	}
+	#certificate p {
+		color: black;
+		font-size: 1em;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -458,15 +437,14 @@ h3{
 	}
 /* Page Certificate
 ------------------------------------------------------*/
-#certificate h2 {
-	font-size: 2em;
-	color: #069201;
-}
-
-#certificate p {
-	color: black;
-	font-size: 1em;
-}
+	#certificate h2 {
+		font-size: 2em;
+		color: #069201;
+	}
+	#certificate p {
+		color: black;
+		font-size: 1em;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -491,15 +469,14 @@ h3{
 	}
 	/* Page Certificate
 ------------------------------------------------------*/
-#certificate h2 {
-	font-size: 2em;
-	color: #069201;
-}
-
-#certificate p {
-	color: black;
-	font-size: 1em;
-}
+	#certificate h2 {
+		font-size: 2em;
+		color: #069201;
+	}
+	#certificate p {
+		color: black;
+		font-size: 1em;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
