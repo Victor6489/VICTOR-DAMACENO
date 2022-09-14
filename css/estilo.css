@@ -255,6 +255,25 @@ footer ul li {
 	color: black;
 	font-size: 1.5em;
 }
+/* Page Historic
+-----------------------------*/
+#historic{
+	margin-top: 100px;
+}
+#historic h2{
+	font-size: 3em;
+}
+#historic p{
+	font-size: 1.1em;
+	color: white;
+}
+#no-background{
+	padding: 40px 40px;
+}
+#alt-background{
+	background-color:  rgba(6, 146, 1, 0.6);
+	padding: 40px 40px;
+}
 
 /* Tipografia
 -----------------------------*/
@@ -264,13 +283,11 @@ h1{
 	margin-bottom: 50px;
 	color: white;
 }
-
 h2{
 	font-size: 3em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
-
 h3{
 	font-size: 2em;
 	font-weight: 500;
@@ -282,7 +299,7 @@ h3{
 /*Page Index
 ------------------------------------------------------*/
 	.name-title{
-		font-size: 2em;
+		font-size: 1.5em;
 		padding-right: 2px;
 		padding-top: 18px;
 	}
