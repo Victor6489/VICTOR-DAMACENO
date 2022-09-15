@@ -244,6 +244,7 @@ footer ul li {
 }
 #historic h2{
 	font-size: 3em;
+	color: #069201;
 }
 #historic p{
 	font-size: 1.1em;
@@ -253,7 +254,7 @@ footer ul li {
 	padding: 40px 40px;
 }
 #alt-background{
-	background-color:  rgba(6, 146, 1, 0.6);
+	background-color: #302900;
 	padding: 40px 40px;
 }
 
