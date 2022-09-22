@@ -162,11 +162,11 @@ ul li:hover::after{
 	color: #069201;;
 }
 #skills h3 {
-	font-size: 2em;
+	font-size: 1.8em;
 	color: #069201;
 }
 #skills p {
-	font-size: 1em;
+	font-size: 0.9em;
 	color: white;
 }
 
