@@ -1,178 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-br en">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS 
----------------------------------------------------------------------------------------------------------------->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<!-- Font Awesome 
----------------------------------------------------------------------------------------------------------------->
-<script src="https://kit.fontawesome.com/1433703f75.js" crossorigin="anonymous"></script>
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- HTML5Shiv 
+  <!-- Bootstrap CSS 
 ---------------------------------------------------------------------------------------------------------------->
-    <!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome 
+---------------------------------------------------------------------------------------------------------------->
+  <script src="https://kit.fontawesome.com/1433703f75.js" crossorigin="anonymous"></script>
+
+  <!-- HTML5Shiv 
+---------------------------------------------------------------------------------------------------------------->
+  <!--[if lt IE 9]>
 	    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->
 
-<!-- Estilo customizado 
+  <!-- Estilo customizado 
 ---------------------------------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-    <title>Victor Damaceno</title>
-    <link rel="icon" href="img2/dev5.png">
-  </head>
-  <body>
+  <title>Victor Damaceno</title>
+  <link rel="icon" href="img2/dev5.png">
+</head>
 
-<!-- Start Header
+<body>
+
+  <!-- Start Header
 ---------------------------------------------------------------------------------------------------------------->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
-        <div class="container">
-          <div>
-            <a href="index.html" class="navbar-brand d-flex" >
-              <img src="img2/dev4.png" width="80px" class="img-fluid">
-              <h1 class="name-title px-2">Victor Damaceno</h1>
-            </a>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
+      <div class="container">
+        <div>
+          <a href="index.html" class="navbar-brand d-flex">
+            <img src="img2/dev4.png" width="80px" class="img-fluid">
+            <h1 class="name-title px-2">Victor Damaceno</h1>
+          </a>
+        </div>
 
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-            <i class="fas fa-bars text-white"></i>
-          </button>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
 
-          <div class="collapse navbar-collapse" id="nav-principal">
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="historic.html" class="nav-link">Trajetória</a>
+            </li>
+            <li class="nav-item">
+              <a href="certificate.html" class="nav-link">Certificados</a>
+            </li>
+
+            <li class="nav-item divisor"></li>
+            <!--divisor-->
+          </ul>
+
+          <div class="d-flex">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
+              <li class="nav-item ">
+                <a href="index-eng.html" class="nav-link">
+                  <i class="fa-solid fa-earth-americas icons"></i>
+                  <span class="description"> English</span>
+                </a>
               </li>
-              <li class="nav-item">
-                <a href="historic.html" class="nav-link">Trajetória</a>
+              <li class="nav-item ">
+                <a href="curriculum.html" class="nav-link">
+                  <i class="fa-solid fa-file-arrow-down icons"></i>
+                  <span class="description"> Imprima meu curriculo</span>
+                </a>
               </li>
-              <li class="nav-item">
-                <a href="certificate.html" class="nav-link">Certificados</a>
-              </li>
-
-              <li class="nav-item divisor"></li> <!--divisor--> 
             </ul>
-
-            <div class="d-flex">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a href="index-eng.html" class="nav-link">
-                    <i class="fa-solid fa-earth-americas icons"></i>
-                    <span class="description"> English</span> 
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a href="curriculum.html" class="nav-link">
-                    <i class="fa-solid fa-file-arrow-down icons"></i>
-                    <span class="description"> Imprima meu curriculo</span> 
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
-      </nav>
-    </header><!--/end Header -->
+      </div>
+    </nav>
+  </header>
+  <!--/end Header -->
 
-    <Section id="certificate" class="d-flex">
-        <div class="container">
-          <div class="row d-flex flex-md-row-reverse">
-            <div class=" col-md-4">
-              <h2 class="name-title pl-4"> DevOps & Agile Culture </h2>
-              <p> Abrangendo o Manifesto de Ágil, Scrum Kanban, Extreme Programing, Cumulative Flow Diagram (CFD),  UML – Unified Modeling Language e deus diagramas.</p>
-            </div>
-            <div class="col-md-8 devops2">
-              <a href="http://">
-                <img src="img2/Certificado de Devops.png" class="certificate-img">
-              </a>
-            </div>
-          </div>
-          <div class="row d-flex my-4">
-            <div class="col-md-4">
-              <h2 class="name-title pl-4"> Desenvolvimento Web </h2>
-              <p> Curso completo de HTML5, CSS3, BootStrap 4, JavaScript, ECMAScript, PHP 7, Orientação a Objetos, MySQL, PHP com PDO, Ajax, JQuery, MVC, SASS, APIs, IONIC, WordPress. </p>
-            </div>
-            <div class="col-md-8">
-              <img src="img2/em-breve-black.jpg" class="certificate-img">
-            </div>
-          </div>
-          <div class="row d-flex flex-md-row-reverse">
-            <div class=" col-md-4">
-              <h2 class="name-title pl-4"> JavaScript & Typescript </h2>
-              <p> Este curso aborda Typescript e Javascript moderno (ES6+) para front-end (com Webpack, babel, React, React Hooks, Redux, HTML5, CSS3 e mais) e back-end (com Node, Express, MySQL / MariaDB, MongoDB, PostgreSQL, Next.Js, Strapi). </p>
-            </div>
-            <div class="col-md-8">
-              <img src="img2/em-breve-black.jpg" class="certificate-img">
-            </div>
-          </div>
-          <div class="row d-flex my-4">
-            <div class="col-md-4">
-              <h2 class="name-title pl-4"> React.js & Next.js </h2>
-              <p> Curso de React.Js e Next.Js completo do básico ao avançado. Aprendendo React.JS, Next.JS, Styled-Components, testes com Jest e Testing Library, Storybook, Server-Side Rendering e demais siglas (SSR, SSG, ISR, CSR, SPA, PWA, etc...) no Front-End.</p>
-            </div>
-            <div class="col-md-8">
-              <img src="img2/em-breve-black.jpg" class="certificate-img">
-            </div>
+  <Section id="certificate" class="d-flex">
+    <div class="container">
+      <div class="row d-flex flex-md-row-reverse">
+        <div class=" col-md-4">
+          <h2 class="name-title pl-4"> DevOps & Agile Culture </h2>
+          <p> Abrangendo o Manifesto de Ágil, Scrum Kanban, Extreme Programing, Cumulative Flow Diagram (CFD), UML –
+            Unified Modeling Language e deus diagramas.</p>
+        </div>
+        <div class="col-md-8 devops2">
+          <a href="http://">
+            <img src="img2/Certificado de Devops.png" class="certificate-img">
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex my-4">
+        <div class="col-md-4">
+          <h2 class="name-title pl-4"> Desenvolvimento Web </h2>
+          <p> Curso completo de HTML5, CSS3, BootStrap 4, JavaScript, ECMAScript, PHP 7, Orientação a Objetos, MySQL,
+            PHP com PDO, Ajax, JQuery, MVC, SASS, APIs, IONIC, WordPress. </p>
+        </div>
+        <div class="col-md-8">
+          <img src="img2/em-breve-black.jpg" class="certificate-img">
+        </div>
+      </div>
+      <div class="row d-flex flex-md-row-reverse">
+        <div class=" col-md-4">
+          <h2 class="name-title pl-4"> JavaScript & Typescript </h2>
+          <p> Este curso aborda Typescript e Javascript moderno (ES6+) para front-end (com Webpack, babel, React, React
+            Hooks, Redux, HTML5, CSS3 e mais) e back-end (com Node, Express, MySQL / MariaDB, MongoDB, PostgreSQL,
+            Next.Js, Strapi). </p>
+        </div>
+        <div class="col-md-8">
+          <img src="img2/em-breve-black.jpg" class="certificate-img">
+        </div>
+      </div>
+      <div class="row d-flex my-4">
+        <div class="col-md-4">
+          <h2 class="name-title pl-4"> React.js & Next.js </h2>
+          <p> Curso de React.Js e Next.Js completo do básico ao avançado. Aprendendo React.JS, Next.JS,
+            Styled-Components, testes com Jest e Testing Library, Storybook, Server-Side Rendering e demais siglas (SSR,
+            SSG, ISR, CSR, SPA, PWA, etc...) no Front-End.</p>
+        </div>
+        <div class="col-md-8">
+          <img src="img2/em-breve-black.jpg" class="certificate-img">
+        </div>
+      </div>
+    </div>
+  </Section>
+
+  <!--Footer 
+---------------------------------------------------------------------------------------------------------------->
+  <footer>
+    <div class="container">
+      <!--container-->
+      <div class="row">
+        <!--row -->
+        <div class="col-md-2 d-none d-md-block">
+          <img src="img2/dev5.png" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <h4>índice</h4>
+          <ul class="navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historic.html">Trajetória</a></li>
+            <li><a href="certificate.html">Certificados</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mx-sm-01">
+          <h4>contatos</h4>
+          <ul class="navbar-nav d-flex">
+            <li><a href="https://mail.google.com/"><img src="img2/gmail.png" width="25px" height="25px">
+                victordamaceno6489@gmail.com</a></li>
+            <li><a href="https://web.whatsapp.com/"><img src="img2/whats.png" width="22px" height="20px"> +55 19
+                98456-8676</a></li>
+            <li><a href="https://www.google.com.br/maps/@-22.8420228,-47.2001317,15.75z"><img src="img2/Adress.png"
+                  width="23px" height="25px"> Jd. De Nadai - Sumaré/SP</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="row justify-content-sm-around py-3">
+            <ul class="d-flex">
+              <li>
+                <a href="https://www.facebook.com/victordamaceno6489"><img src="img2/Facebook.png"
+                    class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/victordamaceno6489/"><img src="img2/instagram.png"
+                    class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://github.com/Victor6489/Victor6489"><img src="img2/github.png" class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/victor-damaceno-424366146/"><img src="img2/linkedin.png"
+                    class="img-fluid"></a>
+              </li>
+            </ul>
           </div>
         </div>
-    </Section>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+    <div class="text text-white text-center copywrite">
+      &copy; 2022 Victor Damaceno
+    </div>
+  </footer>
 
-    <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2 d-none d-md-block">
-              <img src="img2/dev5.png" class="fluid">
-            </div>
-            <div class="col-md-2">
-              <h4>índice</h4>
-              <ul class="navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="historicc.html">Trajetória</a></li>
-                <li><a href="certificate.html">Certificados</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 mx-sm-01">
-              <h4>contatos</h4>
-              <ul class="navbar-nav d-flex">
-                <li><a href="https://mail.google.com/"><img src="img2/gmail.png" width="25px" height="25px"> victordamaceno6489@gmail.com</a></li>
-                <li><a href="https://web.whatsapp.com/"><img src="img2/whats.png" width="22px" height="20px"> +55 19 98456-8676</a></li>
-                <li><a href="https://www.google.com.br/maps/@-22.8420228,-47.2001317,15.75z"><img src="img2/Adress.png" width="23px" height="25px"> Jd. De Nadai - Sumaré/SP</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <div class="row justify-content-sm-around py-3">
-                <ul class="d-flex">
-                  <li>
-                    <a href="https://www.facebook.com/victordamaceno6489"><img src="img2/Facebook.png" class="img-fluid"></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/victordamaceno6489/"><img src="img2/instagram.png" class="img-fluid"></a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Victor6489/Victor6489"><img src="img2/github.png" class="img-fluid"></a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/victor-damaceno-424366146/"><img src="img2/linkedin.png" class="img-fluid"></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="text text-white text-center">
-          &copy; 2022 Victor Damaceno
-        </div>
-      </footer>
+  <!-- JavaScript (Optional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- JavaScript (Optional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
 </html>
