@@ -1,241 +1,286 @@
 <!DOCTYPE html>
 <html lang="pt-br en">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS 
----------------------------------------------------------------------------------------------------------------->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<!-- Font Awesome 
----------------------------------------------------------------------------------------------------------------->
-<script src="https://kit.fontawesome.com/1433703f75.js" crossorigin="anonymous"></script>
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- HTML5Shiv 
+  <!-- Bootstrap CSS 
 ---------------------------------------------------------------------------------------------------------------->
-    <!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Font Awesome 
+---------------------------------------------------------------------------------------------------------------->
+  <script src="https://kit.fontawesome.com/1433703f75.js" crossorigin="anonymous"></script>
+
+  <!-- HTML5Shiv 
+---------------------------------------------------------------------------------------------------------------->
+  <!--[if lt IE 9]>
 	    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
     <![endif]-->
 
-<!-- Estilo customizado 
+  <!-- Estilo customizado 
 ---------------------------------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    
-    <title>Victor Damaceno</title>
-    <link rel="icon" href="img2/dev5.png">
-  </head>
-  <body>
-    
-<!-- Start Header
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  <title>Victor Damaceno</title>
+  <link rel="icon" href="img2/dev5.png">
+</head>
+
+<body>
+
+  <!-- Start Header
 ---------------------------------------------------------------------------------------------------------------->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
-        <div class="container">
-          <div>
-            <a href="index.html" class="navbar-brand d-flex" >
-              <img src="img2/dev4.png" width="80px" class="img-fluid">
-              <h1 class="name-title px-2">Victor Damaceno</h1>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-transparente">
+      <div class="container">
+        <div>
+          <a href="index.html" class="navbar-brand d-flex">
+            <img src="img2/dev4.png" width="80px" class="img-fluid">
+            <h1 class="name-title px-2">Victor Damaceno</h1>
+          </a>
+        </div>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index-eng.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="historic-eng.html" class="nav-link">Trajectory</a>
+            </li>
+            <li class="nav-item">
+              <a href="certificate-eng.html" class="nav-link">Certificates</a>
+            </li>
+            <li class="nav-item divisor"></li>
+            <!--divisor-->
+          </ul>
+
+          <div class="d-flex">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a href="index.html" class="nav-link">
+                  <i class="fa-solid fa-earth-americas icons"></i>
+                  <span class="description"> Português</span>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="curriculum-eng.html" class="nav-link">
+                  <i class="fa-solid fa-file-arrow-down icons"></i>
+                  <span class="description"> print my curriculum</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--/Header -->
+
+  <!--Home 
+---------------------------------------------------------------------------------------------------------------->
+  <section id="home" class="d-flex">
+    <!--home -->
+    <div class="container align-self-center">
+      <!--container -->
+      <div class="row px-5 mx-2">
+        <!--row -->
+        <div class="col-md-12 capa">
+          <div id="carousel-victor" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <!--Inner -->
+              <div class="carousel-item active">
+                <h1>Hello, I´m <br> Developer Front-End.</h1>
+                <p class="text-center px-2 text-capa">Right now I'm looking for my first opportunity to show what <br>my
+                  work is like.</p>
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-center">
+                    <div><img src="img2/html.png" class="img-fluid"></div>
+                    <div><img src="img2/css3.png" class="img-fluid"></div>
+                    <div><img src="img2/bootstrap.png" class="img-fluid"></div>
+                    <div><img src="img2/javascrip.png" class="img-fluid"></div>
+                    <div><img src="img2/devops.png" class="img-fluid"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h1>Access now my</h1>
+                <a href="https://github.com/Victor6489/Victor6489" class="btn btn-lg btn-custom btn-branco">
+                  <i class="fa-brands fa-square-github"> Github</i>
+                </a>
+              </div>
+            </div>
+            <!--/Inner -->
+            <!-- Controls -->
+            <a href="#carousel-victor" class="carousel-control-prev" data-slide="prev">
+              <i class="fas fa-angle-left fa-1x"></i>
+            </a>
+            <a href="#carousel-victor" class="carousel-control-next" data-slide="next">
+              <i class="fas fa-angle-right fa-1x"></i>
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--/row -->
+    </div>
+    <!--/container -->
+  </section>
 
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-            <i class="fas fa-bars text-white"></i>
-          </button>
-
-          <div class="collapse navbar-collapse" id="nav-principal">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="index-eng.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="historic-eng.html" class="nav-link">Trajectory</a>
-              </li>
-              <li class="nav-item">
-                <a href="certificate-eng.html" class="nav-link">Certificates</a>
-              </li>
-              <li class="nav-item divisor"></li> <!--divisor--> 
-            </ul>
-
-            <div class="d-flex">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a href="index.html" class="nav-link">
-                    <i class="fa-solid fa-earth-americas icons"></i>
-                    <span class="description"> Português</span> 
-                  </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="curriculum-eng.html" class="nav-link">
-                    <i class="fa-solid fa-file-arrow-down icons"></i>
-                    <span class="description"> print my curriculum</span> 
-                  </a>
-                </li>
-              </ul>
+  <!--Section Projects and Certificates
+---------------------------------------------------------------------------------------------------------------->
+  <section id="projects" class="box">
+    <div class="container">
+      <!--container -->
+      <div class="row">
+        <!--row -->
+        <div class="col-lg-4 ">
+          <h2 class="name-title ">Projects</h2>
+          <p>The four projects that are here are projects created on top of responsiveness and accessibility. Projects
+            that were carefully created to show you how efficient and effective I am for your company.</p>
+          <h2 class="name-title ">Certificates </h2>
+          <p>My certifications are being completed, and as available they will be implemented in this portfolio.</p>
+        </div>
+        <div class="col-lg-8 d-flex">
+          <div>
+            <div class="p-4">
+              <a href="prjt/MATA-MOSQUITO-PROJECT/index.html">
+                <img src="img2/Project-Mata-Mosquito.png">
+              </a>
+            </div>
+            <div class="p-4">
+              <a href="">
+                <img src="img2/em-breve-black2.jpg">
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="p-4">
+              <a href="https://buscador-de-cep-sable.vercel.app/">
+                <img src="img2/buscadordecep.png">
+            </div>
+            <div class="p-4">
+              <img src="img2/em-breve-black2.jpg">
             </div>
           </div>
         </div>
-      </nav>
-    </header><!--/Header -->
-
-<!--Home 
----------------------------------------------------------------------------------------------------------------->
-    <section id="home" class="d-flex"><!--home -->
-      <div class="container align-self-center"><!--container -->
-        <div class="row px-5 mx-2"><!--row -->
-          <div class="col-md-12 capa">
-            <div id="carousel-victor" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner"><!--Inner -->
-                <div class="carousel-item active">
-                  <h1>Hello, I´m <br> Developer Front-End.</h1>
-                  <p class="text-center px-2 text-capa">Right now I'm looking for my first opportunity to show what <br>my work is like.</p>
-                  <div class="row">
-                    <div class="col-md-12 d-flex justify-content-center">
-                      <div><img src="img2/html.png" class="img-fluid"></div>
-                      <div><img src="img2/css3.png"class="img-fluid"></div>
-                      <div><img src="img2/bootstrap.png" class="img-fluid"></div>
-                      <div><img src="img2/javascrip.png" class="img-fluid"></div>
-                      <div><img src="img2/devops.png" class="img-fluid"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <h1>Access now my</h1>
-                  <a href="https://github.com/Victor6489/Victor6489" class="btn btn-lg btn-custom btn-branco">
-                    <i class="fa-brands fa-square-github"> Github</i>
-                  </a>
-                </div>
-                </div><!--/Inner -->
-                      <!-- Controls -->
-                  <a href="#carousel-victor" class="carousel-control-prev" data-slide="prev">
-                    <i class="fas fa-angle-left fa-1x"></i>
-                  </a>
-                  <a href="#carousel-victor" class="carousel-control-next" data-slide="next">
-                    <i class="fas fa-angle-right fa-1x"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!--/row -->
-      </div><!--/container -->
-    </section>
-
-<!--Section Projects and Certificates
----------------------------------------------------------------------------------------------------------------->
-    <section id="projects" class="box">
-      <div class="container"><!--container -->
-        <div class="row"><!--row -->
-          <div class="col-lg-4 ">
-            <h2 class="name-title ">Projects</h2>
-            <p>The four projects that are here are projects created on top of responsiveness and accessibility. Projects that were carefully created to show you how efficient and effective I am for your company.</p>
-            <h2 class="name-title ">Certificates </h2>
-              <p>My certifications are being completed, and as available they will be implemented in this portfolio.</p>
-          </div>
-          <div class="col-lg-8 d-flex">
-            <div>
-              <div class="p-4">
-                <a href="prjt/MATA-MOSQUITO-PROJECT/index.html">
-                  <img src="img2/Project-Mata-Mosquito.png">
-                </a>
-              </div>
-              <div class="p-4">
-                <a href="">
-                  <img src="img2/em-breve-black2.jpg">
-                </a>
-              </div>
-            </div>
-            <div >
-              <div class="p-4">
-                <img src="img2/em-breve-black2.jpg">
-              </div>
-              <div class="p-4">
-                <img src="img2/em-breve-black2.jpg">
-              </div>
-            </div>
-          </div>
-        </div><!--/row -->
-      </div><!--/container-->
-    </section>
-
-<!--Skills 
----------------------------------------------------------------------------------------------------------------->
-    <section id="skills" class="caixa">
-      <div class="container"><!--container-->
-        <div class="row d-flex flex-md-row-reverse"><!--/row -->
-          <div class="col-lg-5">
-            <h2 class="name-title">Skills</h2>
-            <h3>Hard Skills</h3>
-            <p>HTML5 | CSS | Bootstrap | DevOps e Agile Culture | JavaScript | ECMAScript</p>
-            <h3>Soft Skills</h3>
-            <p> Professionalism | Self-knowledge| Assertive communication| Interpersonal relationships| Decision making | Problem and conflict management | Critical thinking | Flexibility and adaptation | Tension and stress management | Knowing how to work under pressure | Proactivity | Communication | Reasoning | Resistance | Active listening | Management of people</p>
-            <h3>Futures Hard Skills</h3>
-            <p> PHP7 | Server Apache | My SQL| Ajax | JQuery | API with Slim Framework| SASS | IONIC | WordPress | React.JS | Next.JS | NextAuth.js | Typesctript | GraphQL | Styled-Components | Storybook | Strapi | Jest | Server-Side Rendering (SSR, SSG, ISR, CSR, SPA, PWA)</p>
-          </div>
-          <div class="col-lg-7">
-            <div class="row mt-2 pt-4">
-              <div class="col-md-12">
-                <img src="img2/img1.webp" class="img-fluid">
-              </div>
-            </div>
-          </div>
-        </div><!--/row -->
-      </div><!--/container-->
-    </section>
-
-<!--Footer 
----------------------------------------------------------------------------------------------------------------->
-    <footer>
-      <div class="container"><!--container-->
-        <div class="row"><!--row -->
-          <div class="col-md-2 d-none d-md-block">
-            <img src="img2/dev5.png" class="img-fluid">
-          </div>
-          <div class="col-md-2">
-            <h4>index</h4>
-            <ul class="navbar-nav">
-              <li><a href="index-eng.html">Home</a></li>
-              <li><a href="historic-eng.html">Trajectory</a></li>
-              <li><a href="certificate-eng.html">Certificates</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 mx-sm-01">
-            <h4>contacts</h4>
-            <ul class="navbar-nav d-flex">
-              <li><a href="https://mail.google.com/"><img src="img2/gmail.png" width="25px" height="25px"> victordamaceno6489@gmail.com</a></li>
-              <li><a href="https://web.whatsapp.com/"><img src="img2/whats.png" width="22px" height="20px"> +55 19 98456-8676</a></li>
-              <li><a href="https://www.google.com.br/maps/@-22.8420228,-47.2001317,15.75z"><img src="img2/Adress.png" width="23px" height="25px"> Jd. De Nadai - Sumaré/SP</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <div class="row justify-content-sm-around py-3">
-              <ul class="d-flex">
-                <li>
-                  <a href="https://www.facebook.com/victordamaceno6489"><img src="img2/Facebook.png" class="img-fluid"></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/victordamaceno6489/"><img src="img2/instagram.png" class="img-fluid"></a>
-                </li>
-                <li>
-                  <a href="https://github.com/Victor6489/Victor6489"><img src="img2/github.png" class="img-fluid"></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/victor-damaceno-424366146/"><img src="img2/linkedin.png" class="img-fluid"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div><!--/row-->
-      </div><!--/container-->
-      <div class="text text-white text-center copywrite">
-        &copy; 2022 Victor Damaceno
       </div>
-    </footer>
+      <!--/row -->
+    </div>
+    <!--/container-->
+  </section>
 
-<!-- JavaScript (Optional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
-  </body>
+  <!--Skills 
+---------------------------------------------------------------------------------------------------------------->
+  <section id="skills" class="caixa">
+    <div class="container">
+      <!--container-->
+      <div class="row d-flex flex-md-row-reverse">
+        <!--/row -->
+        <div class="col-lg-5">
+          <h2 class="name-title">Skills</h2>
+          <h3>Hard Skills</h3>
+          <p>HTML5 | CSS | Bootstrap | DevOps e Agile Culture | JavaScript | ECMAScript</p>
+          <h3>Soft Skills</h3>
+          <p> Professionalism | Self-knowledge| Assertive communication| Interpersonal relationships| Decision making |
+            Problem and conflict management | Critical thinking | Flexibility and adaptation | Tension and stress
+            management | Knowing how to work under pressure | Proactivity | Communication | Reasoning | Resistance |
+            Active listening | Management of people</p>
+          <h3>Futures Hard Skills</h3>
+          <p> PHP7 | Server Apache | My SQL| Ajax | JQuery | API with Slim Framework| SASS | IONIC | WordPress |
+            React.JS | Next.JS | NextAuth.js | Typesctript | GraphQL | Styled-Components | Storybook | Strapi | Jest |
+            Server-Side Rendering (SSR, SSG, ISR, CSR, SPA, PWA)</p>
+        </div>
+        <div class="col-lg-7">
+          <div class="row mt-2 pt-4">
+            <div class="col-md-12">
+              <img src="img2/img1.webp" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/row -->
+    </div>
+    <!--/container-->
+  </section>
+
+  <!--Footer 
+---------------------------------------------------------------------------------------------------------------->
+  <footer>
+    <div class="container">
+      <!--container-->
+      <div class="row">
+        <!--row -->
+        <div class="col-md-2 d-none d-md-block">
+          <img src="img2/dev5.png" class="img-fluid">
+        </div>
+        <div class="col-md-2">
+          <h4>index</h4>
+          <ul class="navbar-nav">
+            <li><a href="index-eng.html">Home</a></li>
+            <li><a href="historic-eng.html">Trajectory</a></li>
+            <li><a href="certificate-eng.html">Certificates</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mx-sm-01">
+          <h4>contacts</h4>
+          <ul class="navbar-nav d-flex">
+            <li><a href="https://mail.google.com/"><img src="img2/gmail.png" width="25px" height="25px">
+                victordamaceno6489@gmail.com</a></li>
+            <li><a href="https://web.whatsapp.com/"><img src="img2/whats.png" width="22px" height="20px"> +55 19
+                98456-8676</a></li>
+            <li><a href="https://www.google.com.br/maps/@-22.8420228,-47.2001317,15.75z"><img src="img2/Adress.png"
+                  width="23px" height="25px"> Jd. De Nadai - Sumaré/SP</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="row justify-content-sm-around py-3">
+            <ul class="d-flex">
+              <li>
+                <a href="https://www.facebook.com/victordamaceno6489"><img src="img2/Facebook.png"
+                    class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/victordamaceno6489/"><img src="img2/instagram.png"
+                    class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://github.com/Victor6489/Victor6489"><img src="img2/github.png" class="img-fluid"></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/victor-damaceno-424366146/"><img src="img2/linkedin.png"
+                    class="img-fluid"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/row-->
+    </div>
+    <!--/container-->
+    <div class="text text-white text-center copywrite">
+      &copy; 2022 Victor Damaceno
+    </div>
+  </footer>
+
+  <!-- JavaScript (Optional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
