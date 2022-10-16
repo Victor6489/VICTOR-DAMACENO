@@ -4,6 +4,7 @@
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 body {
 	background:	url(../img2/dev5.png) no-repeat center padding-box;
@@ -73,11 +74,11 @@ i:hover ~ .description {
 .btn-custom {
 	color: white;
 	border-radius: 500px;
-	-webkit-border-radius: 500px;
+		-webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    text-transform: uppercase;
-    transition: background 0.04s, color 0.4s;
-    padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background 0.04s, color 0.4s;
+  padding: 10px 20px;
 }
 .btn-branco {
 	border: 2px solid white;
@@ -89,41 +90,6 @@ i:hover ~ .description {
 .carousel-control-next, .carousel-control-prev {
 	width: 1%;
 }
-
-/* Estrutura conteúdos
------------------------------*/
-/* ul li{
-  position:relative;
-  display:inline-block;
-  margin:2rem 1rem;
-  width:100px;
-  height:100px;
-  border-radius:5px;
-  background-color:#EEE;
-  box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-ul li:after{
-  content:"";
-  position:absolute;
-  width:100%;
-  height:100%;
-  background-color:#0CF;
-  opacity:0;
-  border-radius:5px;
-  box-shadow:0 5px 15px 0 rgba(0,0,0,0.3);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  z-index -1;
-}
-
-ul li:hover{
-  transform:scale(1.25,1.25);
-}
-
-ul li:hover::after{
-  opacity:1;
-}*/
 .box {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -142,10 +108,9 @@ ul li:hover::after{
 #projects img{
 	width: 100%;
 	height: 100%;
-	max-width: 300px;
-	max-height: 300px;
-	margin: 10px 0px;
-	border-radius: 60px;
+	max-width: 250px;
+	max-height: 250px;
+	border-radius: 50px;
 	border: solid 10px #2a2b2a;	
 }
 #projects img:hover{
@@ -211,6 +176,29 @@ footer ul li {
 .img-contatos{
 	width: 10px;
 	height: 10px;
+}
+.back-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	background:#069201;
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+		-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	color: #302900;
+	transform: rotate(-90deg);
+	border: 0.2rem solid #302900;
+	transition: all 300ms ease-in-out;
+}
+.back-to-top:hover {
+	text-decoration: none;
+	transform: rotate(-90deg) scale(1.1);
+	color: white;
 }
 
 /* Page Certificate
